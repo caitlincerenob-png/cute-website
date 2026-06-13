@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Baby ♡</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- LOGIN PAGE -->
+<div id="loginPage" class="page active">
+    <div class="card">
+
+        <img src="https://cdn-icons-png.flaticon.com/512/742/742751.png" class="bear">
+
+        <h2>Password? ♡</h2>
+
+        <input type="password" id="password" placeholder="Enter password">
+
+        <button onclick="checkPassword()">Open ♡</button>
+
+        <p id="error"></p>
+
+    </div>
+</div>
+
+<!-- MENU PAGE -->
+<div id="menuPage" class="page">
+
+    <div class="card">
+
+        <h2>Hi Baby ♡</h2>
+
+        <p class="subtitle">open according sa numbers ✨</p>
+
+        <button onclick="showPage('letterPage')">1 💌</button>
+
+        <button onclick="showPage('flowersPage')">2 🌸</button>
+
+        <button onclick="showSurprise()">3 🎁</button>
+
+    </div>
+</div>
+
+<!-- LETTER PAGE -->
+<div id="letterPage" class="page">
+    <div class="card photo-card">
+
+        <h2>My Letter To You 💌</h2>
+
+        <img src="gal/hapi cat.jpg" alt="cutie">
+
+        <div class="letter-text">
+            <p> Thank you for staying, understanding me,
+                    and making me feel loved every day.
+                    Every moment with you is special.</p>
+            <br>
+            <p> You never gave up on me, even when I was difficult.
+                    That's one of the many reasons I adore you.</p>
+            <br>
+            <p> I hope this little website reminds you how much
+                    you mean to me. ♡</p>
+        </div>
+
+        <button onclick="backToMenu()">⬅ Back</button>
+
+    </div>
+</div>
+
+<!-- FLOWERS PAGE -->
+<div id="flowersPage" class="page">
+    <div class="card photo-card">
+
+        <h2>Flowers For You 🌸</h2>
+
+        <img src="gal/cutie.jpg" alt="cutie">
+
+        <p class="flower-text">
+            If you were a flower, these would be you because you're the kind of person who makes my days better just by being in them. You bring comfort when I need it, make me laugh when I'm down, and give me something to look forward to every day. You're handsome, caring, and one of the best things that's happened to me—just like a flower that stands out in a garden, you always stand out to me. ♡
+        </p>
+
+        <button onclick="backToMenu()">⬅ Back</button>
+
+    </div>
+</div>
+
+<!-- SURPRISE PAGE -->
+<div id="surprisePage" class="page">
+    <div class="card photo-card">
+
+        <h2>Surprise 🎁</h2>
+
+        <div class="congrats">🥳🥳🥳</div>
+
+        <img src="gal/mweheheh.webp" alt="cutie">
+
+        <p>
+           You're the first guy who never left because of my attitude, my mood swings, my flaws, or the parts of me that aren't always easy to handle. Instead of walking away, you stayed, understood me, and continued choosing me every day. You saw me at my best and at my worst, yet you never made me feel like I was too much.
+        </p>
+
+        <br>
+
+        <p><b>I’d love to be your girlfriend. ♡</b></p>
+
+        <br>
+
+        <p>I love youuuuu ❤️</p>
+
+        <button onclick="backToMenu()">⬅ Back</button>
+
+    </div>
+</div>
+
+<!-- CONFETTI LIBRARY -->
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
